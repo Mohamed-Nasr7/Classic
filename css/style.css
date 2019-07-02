@@ -1,0 +1,613 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+                            /*NAV BAR */
+
+nav{
+    font-size: 17px;
+    color: white;
+    height: 0px;
+    position: relative;
+    z-index: 5
+}
+
+
+nav .classic, nav ul{
+    float: left;
+    margin-top: 10px;
+    
+}
+
+nav .classic{
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+nav ul {
+    list-style: none;
+    width: 50%;
+    font-weight: normal;
+    font-size: 1.17em
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 18px 0px 12px 0;
+    margin: 12px 10px;
+    
+    border-bottom: 2px solid transparent
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0
+}
+
+
+nav ul li.active , nav ul li:hover{
+    color: #defefc !important;                  /* TO LOOK */
+    border-bottom: 2px solid #defefc
+}
+
+nav ul li.active a , nav ul li a:hover{
+    color: #defefc;
+    cursor: pointer;
+}
+
+
+                            /*END NAV BAR */
+
+
+
+
+
+
+
+
+
+
+
+                              /*HEADER*/
+
+
+header{
+    background: URL(../img/negative-space-boardwalk-bike.jpg);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    
+}
+
+
+header .overlay{
+    position: absolute;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, .07);
+    width: 100%; height: 100%;
+    z-index: 2
+}
+
+header .slider{
+    height: 100%
+}
+
+
+header .bx-wrapper{
+    height: 100%;
+    background: none;
+    border: 0;
+    margin-bottom: 0
+}
+
+header .bx-wrapper .bx-viewport{
+    
+    text-align: center;
+    box-shadow: none;
+    height: 100% !important;
+    color: white
+    
+}
+
+
+
+header .slider h2{
+    font-size: 55px;
+}
+header .slider p{
+    font-size: 30px;
+}
+header .slider span{
+    
+    color: #d0fff0
+}
+
+
+                              /* END    HEADER*/
+
+
+
+
+
+
+
+
+
+
+
+                                                        /* SERVICES */
+
+.ser{
+    display: block;
+    margin-top: 5px;
+    padding: 60px 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.ser p{
+    color: #999;
+    font-size: .8em;
+    line-height: 1.3em
+}
+
+.ser h2:not(.line){
+    color: #666;
+    font-weight: normal;
+    font-size: 1.15em
+}
+
+
+
+.ser .line{
+    font-size: 1.4em;
+    font-weight: normal
+}
+
+
+.ser .item{
+    float: left;
+    width: 33.33333333%
+}
+
+.ser .item i, .ser .item div{
+    float: left;
+}
+.ser .item i{
+    width: 25%;
+    color:#a0d8a0;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.ser .item div{
+    width: 75%;
+}
+
+
+hr{
+    display: block;
+    background-color: #d6d6d6;
+    height: 2px;
+    border: 0;
+    margin: 60px 0 60px 0;
+}
+
+
+
+
+
+
+
+
+.team{
+    overflow: hidden;
+}
+
+.team div{
+    float: left;
+}
+
+
+.team div:first-child{
+    width: 31%;
+}
+
+.team div:first-child h2{
+    margin: 2px 5px 30px 0;
+    padding: 0;
+    font-size: 1.4em
+}
+
+.team div:first-child p{
+
+    color: #999;
+    font-size: .8em;
+    line-height: 1.5em;
+    width: 100%
+}
+
+
+.team div:not(:first-child) {
+    padding-top: 0;
+    margin-top: 0 ;
+    margin-left: 22px;
+    display: flex;
+    position: relative;
+}
+
+
+.team div:not(:first-child) p {
+    position: absolute;
+    margin: 0;
+    color: white;
+    font-weight:1000;
+    display: none;
+}
+
+
+.team div:not(:first-child):hover p{
+    display: flex;
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(173, 220, 24, .5);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+                                                /* END SERVICES*/
+
+
+
+
+
+
+
+                                                /* start Testimonials */
+
+
+
+
+.tstm{
+    background: url("https://i.ytimg.com/vi/8OtCmHmoTFM/maxresdefault.jpg");
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    text-align: center;
+}
+
+.tstm .overlay{
+    background-color: rgba(0, 0, 0, .75);
+    height: 100%;
+}
+
+.tstm h2{
+    color: white;
+    font-size: 40px;
+    padding: 80px 0px 60px 0;
+    margin-top: 0;
+    
+}
+
+.tstm p{
+    color: white;
+    line-height: 2em;
+    font-size: 1.2em
+}
+
+.tstm blockquote{
+    display: block;
+    color: #d0fff0;
+    font-size: 2.5em
+}
+
+
+
+.tstm .autoslider > div:not(.active){
+    display: none;
+}
+
+
+
+                                                                /* END Testimonials */
+
+
+
+
+
+
+
+
+
+
+                                                                /* START Portfolio */
+
+
+
+
+.gallery{
+    overflow: hidden;
+}
+
+.portfolio h2{
+    margin-top: 80px;
+    font-weight: normal;
+}
+
+.portfolio ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 40px
+    
+}
+
+.portfolio li{
+    display: inline-block;
+    margin: 8px 8px 15px 0px;
+    padding: 10px;
+    border: 2px solid #a5a5a5;
+    border-radius: 5px;
+    color: #a5a5a5
+}
+
+
+.portfolio .selected{
+    border:  2px solid #468 ;
+    background-color: #468;
+    color: white;
+    
+}
+
+
+
+.portfolio .gallery{
+    
+}
+
+
+
+.portfolio .gallery .img{
+    height: 215px; width: 370px;
+    margin-bottom: 25px;
+    float: left;
+    position: relative;
+}
+
+
+
+.portfolio .gallery .img1{
+    background: url(../img/portfolio/1144_bild.jpg);
+    
+}
+.portfolio .gallery .img2{
+    background: url(../img/portfolio/blog-post-42-thumbnail.jpg)
+}
+.portfolio .gallery .img3{
+    background: url(../img/portfolio/Development-Img08.jpg)
+}
+.portfolio .gallery .img4{
+    background: url(../img/portfolio/khangroup.jpg)
+}
+.portfolio .gallery .img5{
+    background: url(../img/portfolio/oditex.jpg)
+}
+.portfolio .gallery .img6{
+    background: url(../img/portfolio/ukinachangingeurope.jpg)
+}
+
+.portfolio .gallery .img:nth-of-type(2), 
+.portfolio .gallery .img:nth-of-type(5){
+    margin-right: 3.1%;
+    margin-left: 3.1%
+}
+
+.portfolio .gallery .img:before{
+    content: "";
+    position: absolute;
+    width: 100%; height: 100%;
+    background-color: orange;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.portfolio .gallery .img:hover:before{
+    opacity: .3;
+    transition: all .5s ease;
+    cursor: pointer
+}
+
+
+
+                                                                /* END Portfolio */
+
+
+
+
+
+
+
+
+
+
+
+                                                                /* About */
+
+
+.about{
+    color: white;
+    background-color: #232323;
+    padding: 8px 0;
+    margin-top: 50px;
+}
+
+.about .flexcont{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about .flexcont div{
+    flex-basis: 290px
+}
+
+.about .flexcont div:first-child{
+    
+}
+
+
+.about .flexcont div:first-child p{
+    line-height: 1.5em;
+    color: #999;
+    margin-bottom: 22px
+}
+
+
+
+.about .flexcont div:first-child i{
+    color: #999;
+    width: 40px; height: 40px;
+    border: 1px solid #aaa;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+    margin-right: 2px;
+}
+
+
+.about .flexcont div:nth-of-type(2) h4{
+    margin-bottom: 17px
+}
+
+
+.about .flexcont div:nth-of-type(2) span{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    display: inline-block;
+    color: #ccc
+}
+
+
+
+
+.about .imgs img{
+    margin-bottom: 18px;
+    float: left
+}
+
+
+.about .imgs p{
+    font-size: 1.1em;
+    margin: 4px 0 0 12px;
+    color: #ccc;
+    white-space: pre-wrap;
+    float: left;
+    display: block
+}
+
+
+.about .imgs p:nth-of-type(even)
+{
+    font-size: 1em;
+    color: #888;
+    margin-top: 12px
+}
+
+
+.about .th4 p{
+    margin-left: 10px;
+    color: #ccc
+}
+
+.about .th4 hr{
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    background-color: #888
+}
+
+.about p:last-child{
+    color: #888
+}
+
+
+                                                                /* END About */
+
+
+
+
+
+
+
+
+
+
+
+
+                        /*  Framework */
+.clear{
+    clear: both; 
+}
+
+
+.line{
+    position: relative;
+    padding-bottom: 20px
+}
+
+.line:after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid #000;
+    top: 40px; left: 2px;
+    width: 24px;
+}
+
+                    /* END  Framework */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
